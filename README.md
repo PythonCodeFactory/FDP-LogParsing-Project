@@ -1,7 +1,7 @@
 # FDP-LogParsing-Project
 This is the submission for LogParsing project as required for FDP program on Big Data with SPARK conducted by CloudxLab and EICT IIT Roorkee.
 
-My Name : Aaditya Dubey
+My Name :Aaditya Dubey
 CloudXLab ID: aadityasomu1234382
 
 The Solution Script uses Scala and Spark SQL to answer the 5 question asked in log parsing project.
