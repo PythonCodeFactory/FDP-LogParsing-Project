@@ -34,4 +34,5 @@ spark.sql("select host,count(*) as req_cnt from nasa_log group by host order by 
 
 spark.sql("select substr(timeStamp,1,14) as timeFrame,count(*) as req_cnt from nasa_log group by substr(timeStamp,1,14) order by req_cnt desc LIMIT 5").show
 
+
 spark.sql("select httpCode,count(*) as req_cnt from nasa_log group by httpCode ").show
